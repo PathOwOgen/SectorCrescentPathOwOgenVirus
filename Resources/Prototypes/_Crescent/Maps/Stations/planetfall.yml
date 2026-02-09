@@ -1,0 +1,36 @@
+- type: gameMap
+  id: Planetfall
+  mapName: 'NT Isolated Pressurized Warfare Simulation Research Outpost'
+  mapPath: /Maps/_Crescent/Stations/tatsumoto.yml
+  minPlayers: 0
+  stations:
+    Planetfall:
+      stationProto: StandardCrescentStation
+      gridComponents:
+        - type: BlockShipWeaponProjectileGrid
+        - type: PreventPilot
+        - type: VesselIcon
+          iffIcon:
+            sprite: _Crescent/ShipIcons/ifficons.rsi
+            state: outpost
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'NT Isolated Pressurized Warfare Simulation Research Outpost'
+        - type: VesselDesignation
+          designation: vessel-designation-headquarters
+        - type: VesselDescription
+          description: null
+        - type: VesselMusic
+          ambientMusicPrototype: null
+        - type: Grammar
+          attributes:
+            proper: true
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            #PlanetfallTeam1Leader: [ 1, 1 ]
+            #PlanetfallTeam1SubLeader: [ 1, 1 ]
+            #PlanetfallTeam1Member: [ 100, 100 ]
+            #PlanetfallTeam2Leader: [ 1, 1 ]
+            #PlanetfallTeam2SubLeader: [ 1, 1 ]
+            #PlanetfallTeam2Member: [ 100, 100 ]
