@@ -1,7 +1,7 @@
 - type: gameMap
   id: PlanetfallMap
   mapName: 'NT Isolated Pressurized Warfare Simulation Research Outpost'
-  mapPath: /Maps/_Crescent/Stations/Planetfallmap.yml
+  mapPath: /Maps/_Crescent/Stations/planetfallmap.yml
   minPlayers: 0
   stations:
     PlanetfallMap:
