@@ -114,9 +114,6 @@
       maxValue: 2.0
       isLooped: true
   - type: ItemTogglePointLight
-  - type: ItemToggleActiveSound
-    activeSound:
-      path: /Audio/Weapons/ebladehum.ogg
   - type: UseDelay
     delay: 0.5
   - type: Blocking
@@ -141,8 +138,8 @@
     damageContainer: Shield
     # Shield HP
   - type: Battery
-    maxCharge: 450
-    startingCharge: 450
+    maxCharge: 150
+    startingCharge: 150
     # Shield recharge rate
   - type: BatterySelfRecharger
     autoRecharge: true

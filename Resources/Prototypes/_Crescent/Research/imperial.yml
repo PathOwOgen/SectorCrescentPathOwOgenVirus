@@ -303,7 +303,7 @@
     sprite: _Crescent/Clothing/Empire/OuterClothing/mandatejuggernaut.rsi
     state: icon
   discipline: Imperial
-  tier: 2
+  tier: 3
   cost: 10000
   recipeUnlocks:
   - ClothingOuterHardsuitImperialJuggernaut

@@ -294,8 +294,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, EnergyShieldClothingEmpire, StreeCredRedeemable]
   id: ClothingOuterHardsuitImperialJuggernaut
-  name: imperial 'GILGAMESH' mk III combat hardsuit
-  description: This armor was worn during the Empire second great expansion among the most respected ranks. Decorated with gold and the use of expensive materials. Gilgamesh is the ultimate representation of protection thanks to his “Shield of Faith”, capable of absorbing bullet impacts
+  name: imperial 'VALKYRE' mk III combat hardsuit #Damn you SHI for taking Gilgamesh
+  description: An acceptable replica of hardsuit worn during the Empire's second great expansion, distributed amongst only the most respected and esteemed ranks. Perfectly representing the Kaiser's divine protection thanks to it's “Shield of Faith” deflector module, capable of absorbing bullet impacts.
   components:
   - type: Sprite
     sprite: _Crescent/Clothing/Empire/OuterClothing/mandatejuggernaut.rsi
@@ -317,9 +317,17 @@
         Piercing: 50
         Heat: 20
         Caustic: 25
-  - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
+  - type: ClothingSpeedModifier #mildly better than other jugsuits, but far worse protection than a T2
+    walkModifier: 0.80
+    sprintModifier: 0.80
+  - type: HeldSpeedModifier
+  - type: Reflect
+    spread: 270
+    reflectProb: 0.05
+    innate: true
+    reflects:
+      - Energy
+      - NonEnergy
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitImperialJuggernaut
   - type: StaticPrice
