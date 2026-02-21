@@ -396,6 +396,17 @@
         IFFColor: FireBrick
         IFFFaction: Remnant
 
+
+### THE OVERWORLD REMAP PART ###
+- type: gamePreset
+  id: OverworldRemap
+  name: Taypan; remapped
+  showInVote: true
+  description: The last days of Taypan. Testing out the overworld Remap.
+  rules:
+  - OverworldRemap
+  - HullrotEventScheduler
+
 - type: gamePreset
   id: PlanetfallMode
   name: Planetfall SHI VS PTA HYPERWAR
@@ -406,6 +417,9 @@
 
 - type: entity
   id: PlanetfallGameRule
+
+- type: entity
+  id: OverworldRemap
   parent: BaseGameRule
   categories: [ HideSpawnMenu ]
   components:
