@@ -1,13 +1,12 @@
-
-- type: cargoProduct
-  id: FoodMREGeneric
-  icon:
-    sprite: Objects/Consumable/Food/snacks.rsi
-    state: nutribrick
-  product: CrateFoodMRE
-  cost: 1000
-  category: cargoproduct-category-name-food
-  group: generic
+#- type: cargoProduct
+#  id: FoodMREGeneric
+#  icon:
+#    sprite: Objects/Consumable/Food/snacks.rsi
+#    state: nutribrick
+#  product: CrateFoodMRE
+#  cost: 1000
+#  category: cargoproduct-category-name-food
+#  group: generic
 
 # - type: cargoProduct
 #   id: FoodBarSupply
@@ -18,3 +17,14 @@
 #   cost: 750
 #   category: cargoproduct-category-name-food
 #   group:
+
+
+- type: cargoProduct
+  id: FoodScopCrate
+  icon:
+    sprite: Objects/Consumable/Food/snacks.rsi
+    state: nutribrick
+  product: CrateFoodScopBricks
+  cost: 1000
+  category: cargoproduct-category-name-food
+  group: generic
