@@ -23,7 +23,7 @@
             sound:
               collection: MetalBreak
          - !type:ChangeConstructionNodeBehavior
-            node: machineFrame
+            node: warshipComponentsMachineFrame
     - type: Sprite
       sprite: _Crescent/Structures/thrustersyn.rsi
       layers:
@@ -61,7 +61,7 @@
             sound:
               collection: MetalBreak
           - !type:ChangeConstructionNodeBehavior
-            node: machineFrame
+            node: warshipComponentsMachineFrame
     - type: Sprite
       sprite: _Crescent/Structures/thrustersyn.rsi
       layers:
@@ -102,7 +102,7 @@
             sound:
               collection: MetalBreak
           - !type:ChangeConstructionNodeBehavior
-            node: machineFrame
+            node: warshipComponentsMachineFrame
     - type: Machine
       board: CMMFighterCircuitBoard
 
@@ -129,7 +129,7 @@
             sound:
               collection: MetalBreak
           - !type:ChangeConstructionNodeBehavior
-            node: machineFrame
+            node: warshipComponentsMachineFrame
     - type: Sprite
       sprite: _Crescent/Structures/thrusterempire.rsi
       layers:
@@ -172,7 +172,7 @@
             sound:
               collection: MetalBreak
           - !type:ChangeConstructionNodeBehavior
-            node: machineFrame
+            node: warshipComponentsMachineFrame
     - type: Machine
       board: SHIFighterCircuitBoard
 
@@ -199,7 +199,7 @@
             sound:
               collection: MetalBreak
           - !type:ChangeConstructionNodeBehavior
-            node: machineFrame
+            node: warshipComponentsMachineFrame
     - type: Sprite
       sprite: _Crescent/Structures/thrusterncwl.rsi
       layers:
@@ -240,7 +240,7 @@
             sound:
               collection: MetalBreak
           - !type:ChangeConstructionNodeBehavior
-            node: machineFrame
+            node: warshipComponentsMachineFrame
     - type: Machine
       board: SRMFighterCircuitBoard
 
@@ -267,7 +267,7 @@
             sound:
               collection: MetalBreak
           - !type:ChangeConstructionNodeBehavior
-            node: machineFrame
+            node: warshipComponentsMachineFrame
     - type: Sprite
       sprite: _Crescent/Structures/thrustersyn.rsi
       layers:
@@ -308,7 +308,7 @@
             sound:
               collection: MetalBreak
           - !type:ChangeConstructionNodeBehavior
-            node: machineFrame
+            node: warshipComponentsMachineFrame
     - type: Sprite
       sprite: _Crescent/Structures/thrusterncwl.rsi
       layers:
@@ -349,7 +349,7 @@
             sound:
               collection: MetalBreak
           - !type:ChangeConstructionNodeBehavior
-            node: machineFrame
+            node: warshipComponentsMachineFrame
     - type: Machine
       board: CMMWarshipCircuitBoard
 
@@ -376,7 +376,7 @@
             sound:
               collection: MetalBreak
           - !type:ChangeConstructionNodeBehavior
-            node: machineFrame
+            node: warshipComponentsMachineFrame
     - type: Machine
       board: SHIWarshipCircuitBoard
 
@@ -403,7 +403,7 @@
             sound:
               collection: MetalBreak
           - !type:ChangeConstructionNodeBehavior
-            node: machineFrame
+            node: warshipComponentsMachineFrame
     - type: Sprite
       sprite: _Crescent/Structures/thrusterempire.rsi
       layers:
@@ -444,6 +444,6 @@
             sound:
               collection: MetalBreak
           - !type:ChangeConstructionNodeBehavior
-            node: machineFrame
+            node: warshipComponentsMachineFrame
     - type: Machine
       board: SRMWarshipCircuitBoard
