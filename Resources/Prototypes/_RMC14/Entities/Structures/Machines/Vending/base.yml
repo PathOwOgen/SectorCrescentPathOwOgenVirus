@@ -25,15 +25,16 @@
   - type: Tag
     tags:
     - Structure
-  #    offState: off
-  #    brokenState: broken
   - type: Sprite
-    sprite: _Crescent/Structures/armoryPF.rsi
+    sprite: _Crescent/Structures/syndicatearmory.rsi
     layers:
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
-    - state: "base"
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: UserInterface
     interfaces:
       enum.CMAutomatedVendorUI.Key:
@@ -64,7 +65,7 @@
     bodyType: Static
   - type: Damageable
     damageContainer: StructuralMarine
-  - type: Destructible # TODO RMC14 some of these should just be knocked over with a do after by xenos
+  - type: Destructible
     thresholds:
     - trigger:
         !type:DamageTrigger
@@ -72,8 +73,7 @@
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
-  # - type: XenoCrusherChargable TODO knock over by crusher
-  - type: Fixtures #TODO remove this component(making it use the parent's fixtures) after vendor tipping is added.
+  - type: Fixtures
     fixtures:
       fix1:
         shape:

@@ -5,8 +5,8 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Clothing\Head\Misc\red_racoon.rsi
-    state: icon
+    sprite:  _Crescent/Structures/syndicatearmory.rsi
+    state: "off"
   - type: CMVendorBundle
     bundle:
     - ClothingHeadHatHardhatBlue
