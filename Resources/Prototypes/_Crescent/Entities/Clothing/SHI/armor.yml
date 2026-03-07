@@ -9,6 +9,8 @@
   - type: Sprite
     sprite: _Crescent/Clothing/SHI/OuterClothing/combine.rsi
   - type: Clothing
+    equipSound: /Audio/_Crescent/Items/Clothing/CombineSuit/puton.ogg
+    unequipSound: /Audio/_Crescent/Items/Clothing/CombineSuit/takeoff.ogg
     sprite: _Crescent/Clothing/SHI/OuterClothing/combine.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
@@ -33,14 +35,19 @@
     clothingPrototype: ClothingHeadHelmetHardsuitCombine
   - type: ClothingAddFaction
     faction: SHI
-  - type: ReverseEngineering # TODO
-    difficulty: 3
-    recipes:
-      - ClothingOuterHardsuitHighsec
-      - ClothingOuterHardsuitHighsecUA
-      - ClothingOuterHardsuitHighsecIndependent
-      - ClothingOuterHardsuitHEV
-      - ClothingOuterHardsuitCombine
+#  - type: ReverseEngineering # i dont know how this works dawg
+#    difficulty: 3
+#    recipes:
+#      - ClothingOuterHardsuitHighsec
+#      - ClothingOuterHardsuitHighsecUA
+#      - ClothingOuterHardsuitHighsecIndependent
+#      - ClothingOuterHardsuitHEV
+#      - ClothingOuterHardsuitCombine
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: CombineSuit
+      params:
+        volume: -5
 
 - type: entity
   parent: ClothingOuterHardsuitBase
