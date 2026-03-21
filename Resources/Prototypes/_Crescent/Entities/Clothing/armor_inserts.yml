@@ -48,6 +48,30 @@
       enum.StorageUiKey.Key:
         type: StorageBoundUserInterface
         
+- type: entity
+  abstract: true
+  id: ClothingArmorInsertHardsuitJugg
+  components:
+  - type: ArmorPlateHolder
+  - type: Storage
+    maxItemSize: Normal
+    grid:
+    - 0,0,3,3
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        showEnts: False
+        occludes: True
+        ents: []
+      toggleable-clothing: !type:Container
+        showEnts: False
+        occludes: True
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+        
 #Hardsuit inserts - First generation
 #Hardened steel
 - type: entity
