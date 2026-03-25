@@ -89,8 +89,8 @@
     - 0,0,2,2
   - type: ArmorPlateItem
     maxDurability: 60
-    WalkSpeedMultiplier: 0.9
-    SprintSpeedMultiplier: 0.9
+    walkSpeedMultiplier: 0.9
+    sprintSpeedMultiplier: 0.9
     staminaDamageMultiplier: 0.7
     damageMultipliers:
       Piercing: 0.7
