@@ -216,7 +216,7 @@
           ents: []
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 167
+      projectileSpeed: 170
       burstFireRate: 15
       burstCooldown: 1.5
       shotsPerBurst: 3
