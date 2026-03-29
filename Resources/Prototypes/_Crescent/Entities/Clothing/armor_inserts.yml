@@ -91,7 +91,7 @@
     maxDurability: 60
     walkSpeedModifier: 0.9
     sprintSpeedModifier: 0.9
-    staminaDamageMultiplier: 0.7
+    staminaDamageMultiplier: 0.4
     damageMultipliers:
       Piercing: 0.7
       Blunt: 0.6
@@ -133,7 +133,7 @@
     maxDurability: 140
     walkSpeedModifier: 1
     sprintSpeedModifier: 1
-    staminaDamageMultiplier: 0.4
+    staminaDamageMultiplier: 0.6
     damageMultipliers:
       Piercing: 2
       Blunt: 2
@@ -176,7 +176,7 @@
     maxDurability: 150
     walkSpeedModifier: 0.8
     sprintSpeedModifier: 0.8
-    staminaDamageMultiplier: 0.8
+    staminaDamageMultiplier: 0.4
     damageMultipliers:
       Piercing: 0.9
       Blunt: 0.8
@@ -261,7 +261,7 @@
     maxDurability: 100
     walkSpeedModifier: 0.7
     sprintSpeedModifier: 0.7
-    staminaDamageMultiplier: 0.7
+    staminaDamageMultiplier: 0.4
     damageMultipliers:
       Piercing: 0.7
       Blunt: 0.6
@@ -343,7 +343,7 @@
     maxDurability: 250
     walkSpeedModifier: 0.9
     sprintSpeedModifier: 0.9
-    staminaDamageMultiplier: 0.4
+    staminaDamageMultiplier: 0.7
     damageMultipliers:
       Piercing: 3
       Blunt: 3
@@ -386,7 +386,7 @@
     maxDurability: 300
     walkSpeedModifier: 0.7
     sprintSpeedModifier: 0.7
-    staminaDamageMultiplier: 0.7
+    staminaDamageMultiplier: 0.4
     damageMultipliers:
       Piercing: 0.9
       Blunt: 0.8
