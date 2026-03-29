@@ -78,7 +78,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Heat: 25
+        Heat: 4
   - type: ProjectileIFF
     visualType: Circle
     color: Red
@@ -92,6 +92,10 @@
     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/lasers.rsi
     layers:
       - state: laserlight
+  - type: ProjectileSpread
+    proto: BulletScourer
+    count: 9
+    spread: 5
 
 - type: entity
   id: BulletRetribution
