@@ -236,9 +236,9 @@
           pitch: 1.2
           variation: 0.08
     - type: BasicEntityAmmoProvider
-      proto: BulletRetribution
-      capacity: 60
-      count: 60
+      proto: BulletScourer
+      capacity: 125
+      count: 125
     - type: ApcPowerReceiver
       powerLoad: 2500
     - type: HardpointAnchorableOnly

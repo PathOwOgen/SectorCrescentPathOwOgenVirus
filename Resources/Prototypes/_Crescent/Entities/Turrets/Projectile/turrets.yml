@@ -31,9 +31,9 @@
     - type: Gun
       fireOnDropChance: 0
       projectileSpeed: 180
-      burstFireRate: 15
-      burstCooldown: 0.7
+      burstFireRate: 60
       shotsPerBurst: 6
+      burstCooldown: 0.1
       selectedMode: Burst
       availableModes:
         - Burst

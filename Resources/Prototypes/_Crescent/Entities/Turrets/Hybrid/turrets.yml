@@ -35,9 +35,9 @@
       selectedMode: FullAuto
       availableModes:
         - FullAuto
-      angleDecay: 20
+      angleDecay: 5
       minAngle: 3.5
-      maxAngle: 35
+      maxAngle: 20
       angleIncrease: 2.75
       soundGunshot:
         path: /Audio/Weapons/Guns/Gunshots/laserturret.ogg

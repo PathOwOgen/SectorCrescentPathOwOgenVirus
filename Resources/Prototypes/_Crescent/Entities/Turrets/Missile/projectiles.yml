@@ -313,9 +313,9 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 250
-    intensitySlope: 100
-    totalIntensity: 3000
+    maxIntensity: 350
+    intensitySlope: 1000
+    totalIntensity: 4000
     maxTileBreak: 8
   - type: PointLight
     radius: 3.5
@@ -524,7 +524,7 @@
     explosionType: Default
     maxIntensity: 1000
     intensitySlope: 200
-    totalIntensity: 7000
+    totalIntensity: 3500
     maxTileBreak: 10
   - type: PointLight
     radius: 3.5
@@ -560,7 +560,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 500
+        damage: 250
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -662,9 +662,9 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 23000
+    maxIntensity: 2000
     intensitySlope: 500
-    totalIntensity: 23000
+    totalIntensity: 6000
     maxTileBreak: 32
   - type: PointLight
     radius: 3.5
@@ -700,7 +700,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 750 #harder to shoot down than a gargoyle still
+        damage: 300 #harder to shoot down than a gargoyle still
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
