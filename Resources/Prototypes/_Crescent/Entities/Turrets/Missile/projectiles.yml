@@ -327,7 +327,7 @@
   - type: HeatSeeking
     rotationSpeed: 10
     acceleration: 10
-    topSpeed: 150
+    topSpeed: 100
     fieldOfView: 20
     defaultSeekingRange: 2000
     guidanceAlgorithm: PredictiveGuidance
@@ -536,7 +536,7 @@
   - type: HeatSeeking
     rotationSpeed: 20
     acceleration: 20
-    topSpeed: 130
+    topSpeed: 80
     fieldOfView: 25
     defaultSeekingRange: 3000
     guidanceAlgorithm: PurePursuit
@@ -654,7 +654,7 @@
         Structural: 2000
         Blunt: 500
   - type: TimedDespawn
-    lifetime: 62.5 #5000
+    lifetime: 83.3 #4998
   - type: Sprite
     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/catapult.rsi
     layers:
@@ -674,9 +674,9 @@
     visualType: SquareReticle
     color: Red
   - type: HeatSeeking
-    rotationSpeed: 8
+    rotationSpeed: 30
     acceleration: 10
-    topSpeed: 200
+    topSpeed: 60
     fieldOfView: 25
     defaultSeekingRange: 5000
     guidanceAlgorithm: PredictiveGuidance
