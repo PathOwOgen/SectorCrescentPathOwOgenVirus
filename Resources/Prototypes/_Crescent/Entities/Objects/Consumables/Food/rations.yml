@@ -5,9 +5,6 @@
   name: Imperial Army Ration Package
   description: A standard, ready to eat, ration pack utilized by the Imperial Army. These contain one meal worth of food, and have an essentially infinite shelf life. 
   components:
-  - type: Tag
-    tags:
-    - DsmRation
   - type: Sprite
     sprite: _Crescent/Objects/Consumables/Food/ration.rsi
     state: dsmrationclosed
@@ -50,9 +47,6 @@
   name: NCWL Homeguard Ration
   description: A cobbled together ration pack in use by the NCWL Homeguard. Contains two meals (One can, two PSBs) 
   components:
-  - type: Tag
-    tags:
-    - NcwlRation
   - type: Sprite
     sprite: _Crescent/Objects/Consumables/Food/ration.rsi
     state: ncwlrationclosed
