@@ -657,7 +657,6 @@
   - type: Item
     sprite: _Crescent/Objects/Tools/New_Tools/drill.rsi
     size: Small
-    state: drill_screw
   - type: Tool
     qualities:
       - Screwing
@@ -1003,7 +1002,6 @@
     angle: 45
   - type: Item
     size: Normal
-    sprite: _Crescent/Objects/Tools/New_Tools/shovel.rsi
   - type: PhysicalComposition
     materialComposition:
       Steel: 100
