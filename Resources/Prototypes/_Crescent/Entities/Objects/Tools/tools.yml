@@ -914,7 +914,6 @@
     sprite: _Crescent/Objects/Tools/New_Tools/handyman.rsi
     state: Handyman-screw
   - type: Item
-    sprite: _Crescent/Objects/Tools/New_Tools/handyman.rsi
     size: Normal
   - type: Tag
     tags:
