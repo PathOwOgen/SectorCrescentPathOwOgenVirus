@@ -4,7 +4,7 @@
   mapPath: /Maps/_Crescent/Stations/ironring.yml
   minPlayers: 0
   stations:
-    Iron Ring:
+    IronRing:
       stationProto: StandardCrescentStation
       gridComponents:
         - type: BlockShipWeaponProjectileGrid
