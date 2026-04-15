@@ -73536,7 +73536,7 @@ entities:
     - type: Transform
       pos: 11.5,17.5
       parent: 1
-- proto: ClosetFireFilled
+- proto: ClosetFireCrescentFilled
   entities:
   - uid: 8693
     components:
@@ -73761,7 +73761,7 @@ entities:
           showEnts: False
           occludes: True
           ent: null
-- proto: ClosetToolFilled
+- proto: ClosetToolCrescentFilled
   entities:
   - uid: 8748
     components:
@@ -77147,7 +77147,7 @@ entities:
     - type: Transform
       pos: 39.5,-7.5
       parent: 1
-- proto: Crowbar
+- proto: CrescentCrowbar
   entities:
   - uid: 9371
     components:
@@ -100785,7 +100785,7 @@ entities:
           showEnts: False
           occludes: True
           ent: 140
-- proto: JawsOfLife
+- proto: CrescentHandyMan
   entities:
   - uid: 1375
     components:
@@ -101719,7 +101719,7 @@ entities:
           showEnts: False
           occludes: True
           ents: []
-- proto: Multitool
+- proto: CrescentMultitool
   entities:
   - uid: 12584
     components:
@@ -108516,7 +108516,7 @@ entities:
     - type: Transform
       pos: -26.5,3.5
       parent: 1
-- proto: Screwdriver
+- proto: CrescentScrewdriver
   entities:
   - uid: 8776
     components:
@@ -113111,7 +113111,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ToolboxElectricalFilled
+- proto: ToolboxElectricalCrescentFilled
   entities:
   - uid: 9344
     components:
@@ -113132,7 +113132,7 @@ entities:
     - type: Transform
       pos: -17.610687,24.301317
       parent: 1
-- proto: ToolboxMechanicalFilled
+- proto: ToolboxMechanicalCrescentFilled
   entities:
   - uid: 9346
     components:
@@ -113176,7 +113176,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: trayScanner
+- proto: CrescenttrayScanner
   entities:
   - uid: 14243
     components:
@@ -113389,7 +113389,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 14.5,1.5
       parent: 1
-- proto: VendingMachineEngivend
+- proto: VendingMachineCrescentEngivend
   entities:
   - uid: 14270
     components:
@@ -113586,7 +113586,7 @@ entities:
     - type: Transform
       pos: -21.5,-40.5
       parent: 1
-- proto: VendingMachineYouTool
+- proto: VendingMachineCrescentYouTool
   entities:
   - uid: 14295
     components:
@@ -126327,14 +126327,14 @@ entities:
       linkedConsoleId: 9323
     - type: Battery
       startingCharge: 0
-- proto: WelderIndustrial
+- proto: CrescentMiniWelder
   entities:
   - uid: 16447
     components:
     - type: Transform
       pos: -40.13204,6.0934553
       parent: 1
-- proto: WelderIndustrialAdvanced
+- proto: CrescentWelder
   entities:
   - uid: 16448
     components:
@@ -126736,7 +126736,7 @@ entities:
     - type: Transform
       pos: 27.5,-5.5
       parent: 1
-- proto: Wirecutter
+- proto: CrescentWirecutter
   entities:
   - uid: 16504
     components:
@@ -126768,7 +126768,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -34.5,6.5
       parent: 1
-- proto: Wrench
+- proto: CrescentWrench
   entities:
   - uid: 1365
     components:
