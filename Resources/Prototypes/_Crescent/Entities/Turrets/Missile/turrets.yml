@@ -380,7 +380,7 @@
       cycleable: false
       capacity: 3
       fillWithDoAfter: false
-      proto: Cartridge95mmRocketNCWL
+      proto: Cartridge330mmRocket
       whitelist:
         tags:
         - CartridgeCatapult

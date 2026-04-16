@@ -322,40 +322,40 @@
 #     layers:
 #       - state: base-projectile
 
-# - type: entity
-#   id: Bullet90mmBase
-#   name: 90mm Armor Piercing High Explosive shell
-#   parent: BaseBulletTrigger
-#   categories: [ HideSpawnMenu ]
-#   components:
-#   - type: ProjectileIFF
-#     visualType: Square
-#     color: White
-#   - type: ProjectilePhasePrevent
-#   - type: ShipWeaponProjectile
-#   - type: Projectile
-#     ignoreWeaponGrid: true
-#     damage:
-#       types:
-#         Structural: 1300
-#         Piercing: 200
-#   - type: ExplodeOnTrigger
-#   - type: Explosive
-#     explosionType: Default
-#     maxIntensity: 100
-#     intensitySlope: 40
-#     totalIntensity: 500
-#     maxTileBreak: 3
-#   - type: PointLight
-#     radius: 3.5
-#     color: orange
-#     energy: 0.5
-#   - type: TimedDespawn
-#     lifetime: 15 #2500
-#   - type: Sprite
-#     sprite: _NF/Objects/SpaceArtillery/mortarcasing.rsi
-#     layers:
-#       - state: base-projectile
+- type: entity
+  id: Bullet90mmBase
+  name: 90mm Armor Piercing High Explosive shell
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ProjectileIFF
+    visualType: Square
+    color: White
+  - type: ProjectilePhasePrevent
+  - type: ShipWeaponProjectile
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 1300
+        Piercing: 200
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 100
+    intensitySlope: 40
+    totalIntensity: 500
+    maxTileBreak: 3
+  - type: PointLight
+    radius: 3.5
+    color: orange
+    energy: 0.5
+  - type: TimedDespawn
+    lifetime: 15 #2500
+  - type: Sprite
+    sprite: _NF/Objects/SpaceArtillery/mortarcasing.rsi
+    layers:
+      - state: base-projectile
 
 #120mm
 

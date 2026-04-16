@@ -202,12 +202,8 @@
     - BoxShotgunSlug4g
     - MagazineBoxAntiMaterielBig
     - Magazine20mm
-    - Magazine20mmFrag
     - Magazine35mm
-    - Magazine35mmHE
     - Magazine50mm
-    - Magazine50mmHE
-    - Magazine50mmSAPHE
 
 - type: entity
   parent: BaseLathe
