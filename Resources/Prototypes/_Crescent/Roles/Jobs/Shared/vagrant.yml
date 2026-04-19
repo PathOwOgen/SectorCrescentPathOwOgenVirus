@@ -48,7 +48,7 @@
       - CrescentCrowbar
       - CrescentWrench
       - CrescentWirecutter
-      - CrescentWelder
+      # - CrescentWelder #if itll be needed oneday uncomment this
       - CombatKnife
       - HandHeldMassScannerEE
       - JetpackBlueFilled
