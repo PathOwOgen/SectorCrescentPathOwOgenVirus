@@ -31,7 +31,7 @@ public sealed class MaterialStorageMagnetPickupSystem : EntitySystem
         SubscribeLocalEvent<MaterialStorageMagnetPickupComponent, ExaminedEvent>(OnExamined);  // Frontier
         SubscribeLocalEvent<MaterialStorageMagnetPickupComponent, GetVerbsEvent<AlternativeVerb>>(AddToggleMagnetVerb);    // Frontier
     }
-    
+
     private void OnMagnetUnpaused(EntityUid uid, MaterialStorageMagnetPickupComponent component, ref EntityUnpausedEvent args)
     {
         component.NextScan += args.PausedTime;
