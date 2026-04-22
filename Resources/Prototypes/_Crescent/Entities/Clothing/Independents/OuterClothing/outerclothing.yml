@@ -49,7 +49,7 @@
     damageCoefficient: 0.6
   - type: DegradeableArmor
     armorMaxHealth: 100
-    armorType: Ceramic
+    armorType: Plastic
     armorRepair: SteelPlate
     initialModifiers:
       flatReductions:
