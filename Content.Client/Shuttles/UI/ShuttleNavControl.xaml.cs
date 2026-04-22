@@ -827,8 +827,8 @@ public sealed partial class ShuttleNavControl : BaseShuttleControl
         var uiCenter = ScalePosition(mapCenterUI);
 
         handle.DrawCircle(uiCenter, 11500 * MinimapScale, new Color(255, 0, 0, 50), false);
-        handle.DrawCircle(uiCenter, 3950 * MinimapScale, new Color(0, 255, 0, 50), false);
-        handle.DrawCircle(uiCenter, 4350 * MinimapScale, new Color(0, 255, 0, 50), false);
+        // handle.DrawCircle(uiCenter, 3950 * MinimapScale, new Color(0, 255, 0, 50), false);
+        // handle.DrawCircle(uiCenter, 4350 * MinimapScale, new Color(0, 255, 0, 50), false);
     }
     // Rat-end
 
