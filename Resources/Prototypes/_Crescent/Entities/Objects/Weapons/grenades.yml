@@ -773,7 +773,6 @@
   id: FleshbeastDeathrattleGasBomb
   components:
   - type: TriggerOnSpawn
-    delay: 2
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Grenades/fleshbeast_pus_bomb.rsi
   - type: SmokeOnTrigger

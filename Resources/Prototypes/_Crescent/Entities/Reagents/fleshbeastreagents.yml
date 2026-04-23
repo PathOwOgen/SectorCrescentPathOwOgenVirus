@@ -1,8 +1,8 @@
 - type: reagent
   id: FleshbeastAcid
-  name: Gaseous Fleshbeast Pus
+  name: reagent-name-fleshbeast-pus
   group: Toxins
-  desc: reagent-desc-polytrinic-acid
+  desc: reagent-desc-fleshbeast-pus
   physicalDesc: reagent-physical-desc-strong-smelling
   flavor: acid
   color: "#9fc562"

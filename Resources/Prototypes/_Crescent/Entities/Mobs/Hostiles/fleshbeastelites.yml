@@ -71,9 +71,6 @@
     damageRecovery:
       types:
         Asphyxiation: -1.0
-  - type: Magboots
-    RequiresGrid: true
-    Active: true
   - type: ReplacementAccent
     accent: genericAggressive
   - type: Psionic
