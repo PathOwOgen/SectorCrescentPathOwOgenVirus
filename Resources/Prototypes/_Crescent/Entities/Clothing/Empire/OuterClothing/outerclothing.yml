@@ -361,6 +361,13 @@
     price: 9000
   - type: ClothingAddFaction
     faction: DSM
+  - type: ReverseEngineering # Sector Crescent
+    difficulty: 5
+    recipes:
+      - ClothingOuterHardsuitImperialKnight
+      - ClothingOuterHardsuitImperialSoldier
+      - ClothingOuterHardsuitImperialWorker
+      - ClothingOuterHardsuitImperialJuggernaut
 
 # armor
 
