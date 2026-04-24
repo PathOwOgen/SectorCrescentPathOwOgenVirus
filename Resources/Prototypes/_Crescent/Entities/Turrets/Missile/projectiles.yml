@@ -154,7 +154,7 @@
         Structural: 250
         Blunt: 100
   - type: TimedDespawn
-    lifetime: 10.7 #2500
+    lifetime: 20
   - type: Sprite
     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/azimuth.rsi
     layers:
@@ -198,6 +198,7 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
       - !type:ExplodeBehavior
+  - type: IgnoresHullrotShields
 
 # - type: entity
 #   id: AzimuthRocketProjectileGorlex
@@ -302,7 +303,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 600
+        Structural: 500
         Blunt: 200
   - type: TimedDespawn
     lifetime: 45.4 #2496
@@ -356,7 +357,7 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
       - !type:ExplodeBehavior
-  - type: IgnoresHullrotShields
+  # - type: IgnoresHullrotShields
 
 # - type: entity
 #   id: ArbalestRocketProjectileNCWL
@@ -651,7 +652,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 2000
+        Structural: 1250
         Blunt: 500
   - type: TimedDespawn
     lifetime: 111.1 #4998
