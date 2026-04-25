@@ -337,8 +337,7 @@
                 collection: MetalGlassBreak
     - type: ContainerContainer
       containers:
-        ballistic-ammo: !type:Container
-          ents: []
+        gun_magazine: !type:ContainerSlot
     - type: Gun
       fireOnDropChance: 0
       projectileSpeed: 110
@@ -355,17 +354,17 @@
         path: /Audio/Weapons/Guns/Gunshots/lasergatling.ogg
         params:
           variation: 0.12
-    - type: RechargeBasicEntityAmmo
-      rechargeCooldown: 0.6
-      rechargeSound:
-        path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
-        params:
-          pitch: 1.5
-          variation: 0.08
-    - type: BasicEntityAmmoProvider
-      proto: BulletAbsolution
-      capacity: 50
-      count: 50
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: PowerCageGlare
+          insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+          ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+          whitelist:
+            tags:
+              - GlareCell
+    - type: MagazineAmmoProvider
     - type: ApcPowerReceiver
       powerLoad: 4000
     - type: HardpointAnchorableOnly
