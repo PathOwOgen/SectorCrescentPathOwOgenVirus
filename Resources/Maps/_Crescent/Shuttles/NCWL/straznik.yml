@@ -2440,7 +2440,7 @@ entities:
     - type: Transform
       pos: 2.5,-5.5
       parent: 1
-- proto: AirlockExternal
+- proto: AirlockShuttle
   entities:
   - uid: 17
     components:

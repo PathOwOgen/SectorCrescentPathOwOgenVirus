@@ -100,7 +100,7 @@
   parent: [ClothingOuterHardsuitRamzi, ClothingArmorInsertHardsuit]
   id: ClothingOuterHardsuitCybersun
   name: RONIN mk.III modular hardsuit
-  description: A modular hardsuit, bears the colors of Cybersun Technologies of the Syndicate.
+  description: A modular hardsuit, bears the colors of Cyberdawn Technologies of the Syndicate.
   components:
   - type: Sprite
     sprite: _Crescent/Clothing/Syndicate/OuterClothing/syndicatecybersun.rsi
@@ -131,6 +131,54 @@
     faction: TFSC
   - type: ReverseEngineering # Sector Crescent
     recipes:
+      - ClothingOuterHardsuitCybersun
+
+- type: entity
+  parent: [ClothingOuterHardsuitSyndie, ClothingArmorInsertHardsuit]
+  id: ClothingOuterHardsuitCyberdawnTactical
+  name: ZHONGYAO mk.IV tacsuit
+  description: A tactical stealth combat hardsuit produced by the Cyberdawn-Technologies Corporation, the suit's tags indicate it provides moderate protection against most forms of damage.
+    Half of the suit is painted blood red, the rest bears sterile titanium plating. It feels incredibly light.
+  components:
+  - type: ExplosionResistance
+    damageCoefficient: 0.3
+  - type: DegradeableArmor
+    armorMaxHealth: 700
+    armorType: Metallic
+    armorRepair: SteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 6
+        Slash: 6
+        Heat: 6
+        Cold: 6
+        Caustic: 6
+  - type: ExtendDescription
+    descriptionList:
+      - description: This is a carrier vest, it will only provide mediocre protection on its own. Put an armor insert into it to fully utilize it.
+        fontSize: 15
+        color: "#ff2106"
+        requireDetailRange: true
+  - type: Sprite
+    sprite: _Impstation/Clothing/OuterClothing/Hardsuits/syndicate_agent.rsi
+  - type: Clothing
+    sprite: _Impstation/Clothing/OuterClothing/Hardsuits/syndicate_agent.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
+      - state: equipped-OUTERCLOTHING-glow
+        shader: unshaded
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitCyberdawnTactical
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon
+    - HidesHarpyWings
+  - type: ReverseEngineering
+    difficulty: 3
+    recipes:
+      - ClothingOuterHardsuitCyberdawnTactical
       - ClothingOuterHardsuitCybersun
 
 - type: entity
